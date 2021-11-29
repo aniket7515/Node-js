@@ -20,7 +20,7 @@ fs.writeFile('json1.json' ,jsonData, ()=>{  // Added the Json data in another fi
 })
 
 fs.readFile("json1.json" ,"utf-8",(err,data)=>{
-    console.log(data);
+    // console.log(data);
     const orgData = JSON.parse(data);
     console.log(data);
 
